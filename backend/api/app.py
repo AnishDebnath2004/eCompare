@@ -4,6 +4,7 @@ import os
 
 # Note the 'template_folder' argument tells Flask where to look for HTML
 app = Flask(__name__, template_folder='templates')
+application=app
 
 # --- CONFIGURATION ---
 GOOGLE_API_KEY = os.environ.get('AIzaSyBdSHG0NPDssnxk4JGmwcvTLQKSFWaMmpw')
